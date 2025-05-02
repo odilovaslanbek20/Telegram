@@ -373,6 +373,9 @@
   .min-w-\[25px\] {
     min-width: 25px;
   }
+  .min-w-\[82px\] {
+    min-width: 82px;
+  }
   .flex-1\/2 {
     flex: calc(1/2 * 100%);
   }
@@ -773,6 +776,11 @@
   .max-\[350px\]\:w-\[70px\] {
     @media (width < 350px) {
       width: 70px;
+    }
+  }
+  .max-\[350px\]\:min-w-\[70px\] {
+    @media (width < 350px) {
+      min-width: 70px;
     }
   }
   .sm\:w-full {
