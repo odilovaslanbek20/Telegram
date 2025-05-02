@@ -106,8 +106,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		gruhlar.innerHTML += `
   <div class="my-[28px] flex items-center cursor-pointer justify-between gap-[15px]">
     <div class="flex items-center gap-[15px]">
-      <div class="relative min-w-[82px] h-[82px] max-[350px]:min-w-[70px]">
-        <img class="w-full rounded-[30px]" src="${
+      <div class="relative">
+        <img class="min-w-[70px] h-[70px] rounded-[30px]" src="${
 					gruh?.images
 				}" alt="users photos">
         ${
