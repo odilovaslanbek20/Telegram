@@ -133,7 +133,7 @@ const usersData = [
 			userCards.innerHTML += `
 			 <div class="my-[28px] flex items-center cursor-pointer justify-between gap-[15px]">
 						<div class="flex items-center gap-[15px]">
-							<img class="w-[82px] rounded-[30px]" src="${user?.images}" alt="users photos">
+							<img class="w-[82px] max-[400px]:w-[70px] rounded-[30px]" src="${user?.images}" alt="users photos">
 							<div class="">
 								<p class="text-[#131313] text-[23px] font-extrabold font-['K2D']">${user?.name}</p>
 								<p class="text-[#848484] leading-[120%] text-[16px] line-clamp-1 font-medium font-['Gilda Display']">${user?.body}</p>
@@ -141,7 +141,7 @@ const usersData = [
 						</div>
 						<div class="">
 							<span
-								class="px-[9px] py-[5px] bg-[#2675EC] rounded-[20px] text-[#fff] font-medium font-['Gilroy Display']">${user?.count}</span>
+								class="px-[9px] py-[5px] max-[400px]:text-[13px] bg-[#2675EC] rounded-[20px] text-[#fff] font-medium font-['Gilroy Display']">${user?.count}</span>
 						</div>
 					</div>
 			`; 

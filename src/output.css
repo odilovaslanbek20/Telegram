@@ -720,6 +720,11 @@
       width: 100%;
     }
   }
+  .max-\[400px\]\:w-\[70px\] {
+    @media (width < 400px) {
+      width: 70px;
+    }
+  }
   .max-\[400px\]\:text-\[13px\] {
     @media (width < 400px) {
       font-size: 13px;
