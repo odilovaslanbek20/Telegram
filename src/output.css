@@ -172,6 +172,33 @@
   }
 }
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
+  .relative {
+    position: relative;
+  }
+  .top-\[-0px\] {
+    top: -0px;
+  }
+  .top-\[-10px\] {
+    top: -10px;
+  }
+  .top-\[-30px\] {
+    top: -30px;
+  }
+  .top-\[-\] {
+    top: -;
+  }
+  .right-0 {
+    right: calc(var(--spacing) * 0);
+  }
+  .bottom-0 {
+    bottom: calc(var(--spacing) * 0);
+  }
+  .z-50 {
+    z-index: 50;
+  }
   .float-end {
     float: inline-end;
   }
@@ -229,6 +256,12 @@
   .h-\[0px\] {
     height: 0px;
   }
+  .h-\[16px\] {
+    height: 16px;
+  }
+  .h-\[23px\] {
+    height: 23px;
+  }
   .h-\[25px\] {
     height: 25px;
   }
@@ -273,6 +306,9 @@
   }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-\[16px\] {
+    width: 16px;
   }
   .w-\[20px\] {
     width: 20px;
@@ -400,6 +436,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
@@ -407,17 +447,32 @@
   .border-gray-200 {
     border-color: var(--color-gray-200);
   }
+  .border-white {
+    border-color: var(--color-white);
+  }
   .bg-\[\#2675EC\] {
     background-color: #2675EC;
+  }
+  .bg-\[\#6513e1\] {
+    background-color: #6513e1;
   }
   .bg-\[\#131313\] {
     background-color: #131313;
   }
+  .bg-\[\#FFFFFF\] {
+    background-color: #FFFFFF;
+  }
   .bg-\[\#ebe9e9\] {
     background-color: #ebe9e9;
   }
+  .bg-\[\#fdfdfe\] {
+    background-color: #fdfdfe;
+  }
   .bg-\[\#fff\] {
     background-color: #fff;
+  }
+  .bg-\[\#ffffff\] {
+    background-color: #ffffff;
   }
   .bg-blue-600 {
     background-color: var(--color-blue-600);
@@ -427,6 +482,9 @@
   }
   .p-6 {
     padding: calc(var(--spacing) * 6);
+  }
+  .p-\[5px\] {
+    padding: 5px;
   }
   .p-\[24px\] {
     padding: 24px;
@@ -627,6 +685,16 @@
   .max-\[430px\]\:w-full {
     @media (width < 430px) {
       width: 100%;
+    }
+  }
+  .max-\[400px\]\:text-\[13px\] {
+    @media (width < 400px) {
+      font-size: 13px;
+    }
+  }
+  .max-\[400px\]\:text-\[1\] {
+    @media (width < 400px) {
+      color: 1;
     }
   }
   .max-\[380px\]\:gap-0 {
