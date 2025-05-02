@@ -313,6 +313,12 @@
   .h-\[610px\] {
     height: 610px;
   }
+  .h-\[630px\] {
+    height: 630px;
+  }
+  .h-\[650px\] {
+    height: 650px;
+  }
   .h-\[px\] {
     height: px;
   }
@@ -509,6 +515,9 @@
   }
   .p-\[5px\] {
     padding: 5px;
+  }
+  .p-\[20px\] {
+    padding: 20px;
   }
   .p-\[24px\] {
     padding: 24px;
@@ -772,6 +781,16 @@
   .max-\[380px\]\:text-\[px\] {
     @media (width < 380px) {
       color: px;
+    }
+  }
+  .max-\[370px\]\:gap-\[25px\] {
+    @media (width < 370px) {
+      gap: 25px;
+    }
+  }
+  .max-\[370px\]\:text-\[20px\] {
+    @media (width < 370px) {
+      font-size: 20px;
     }
   }
   .max-\[350px\]\:w-\[70\] {
