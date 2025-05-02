@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Gilda+Display:regular" rel="stylesheet" />
+
+	<link
+		href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+		rel="stylesheet" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<link rel="stylesheet" href="./src/output.css">
+	<title>Reyting</title>
+	<style>
+		* ::-webkit-scrollbar {
+			display: none;
+		}
+	</style>
+</head>
+
+<body class="w-full flex items-center justify-center min-h-screen bg-[#ebe9e9] font-['K2D']">
+
+	<div class="max-w-[768px] min-h-screen w-full bg-white p-6">
+		<div class="flex justify-end">
+			<div class="w-[37px] h-[34px] cursor-pointer bg-[#2675EC] rounded-full flex items-center justify-center">
+				<img src="./images/statistika.png" alt="statistika icon">
+			</div>
+		</div>
+
+		<div class="w-full flex items-center mt-[15px] justify-between mb-[25px] pb-2">
+			<h1 class="text-2xl text-[#2675EC] font-bold">Reyting</h1>
+			<div class="flex items-center gap-[31px]">
+				<i class="fas fa-plus text-[25px] text-[#2675EC] cursor-pointer"></i>
+				<i class="fas fa-search text-[25px] text-[#2675EC] cursor-pointer"></i>
+				<i class="fas fa-user text-[25px] text-[#2675EC] cursor-pointer"></i>
+			</div>
+		</div>
+
+		<div class="flex gap-4 max-[380px]:gap-0 overflow-x-auto max-w-full whitespace-nowrap scrollbar-hide">
+			<a href="#"
+				class="py-[12px] px-[22px] rounded-[20px] hover:bg-[#2675EC] focus:bg-[#2675EC] transition-all group focus:outline-none">
+				<span
+					class="font-['K2D'] text-[#000000] group-hover:text-[#fff] group-focus:text-[#fff] text-[20px] font-semibold max-[380px]:text-[18px]">Vazifalar</span>
+			</a>
+			<a href="/gruxlar.html"
+				class="py-[12px] px-[22px] rounded-[20px] hover:bg-[#2675EC] focus:bg-[#2675EC] transition-all group focus:outline-none">
+				<span
+					class="font-['K2D'] text-[#000000] group-hover:text-[#fff] group-focus:text-[#fff] text-[20px] font-semibold max-[380px]:text-[18px]">Guruxlar</span>
+			</a>
+			<a href="#"
+				class="py-[12px] px-[22px] rounded-[20px] hover:bg-[#2675EC] focus:bg-[#2675EC] transition-all group focus:outline-none">
+				<span
+					class="font-['K2D'] text-[#000000] group-hover:text-[#fff] group-focus:text-[#fff] text-[20px] font-semibold max-[380px]:text-[18px]">Maqsadlar</span>
+			</a>
+			<a href="#"
+				class="py-[12px] px-[22px] rounded-[20px] hover:bg-[#2675EC] focus:bg-[#2675EC] transition-all group focus:outline-none">
+				<span
+					class="font-['K2D'] text-[#000000] group-hover:text-[#fff] group-focus:text-[#fff] text-[20px] font-semibold max-[380px]:text-[18px]">Chelenjlar</span>
+			</a>
+		</div>
+
+    <div class="w-full">
+				<div id="gruhlar" class="w-full overflow-y-auto h-[610px]"></div>
+		</div>
+	</div>
+
+	<script src="./Js/main.js"></script>
+</body>
+
+</html>
