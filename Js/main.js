@@ -106,14 +106,14 @@ document.addEventListener('DOMContentLoaded', () => {
 		gruhlar.innerHTML += `
   <div class="my-[28px] flex items-center cursor-pointer justify-between gap-[15px]">
     <div class="flex items-center gap-[15px]">
-      <div class="relative w-[82px] max-[350px]:w-[70px]">
+      <div class="relative w-[82px] h-[82px] max-[350px]:w-[70px]">
         <img class="w-full rounded-[30px]" src="${
 					gruh?.images
 				}" alt="users photos">
         ${
 					gruh.online
 						? `
-          <div class="absolute bottom-0 right-0 w-[16px] h-[16px] rounded-full bg-[#2675EC] border-2 border-white"></div>
+          <div class="absolute bottom-[8px] right-[3px] w-[16px] h-[16px] rounded-full bg-[#2675EC] border-2 border-white"></div>
         `
 						: ''
 				}
